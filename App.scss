@@ -1,0 +1,17 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+body {
+    background: #000000aa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+.dataBody {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 120rem;
+    gap: 1.6rem;
+    margin: 2rem;
+}
+.card {
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.545);
+}
